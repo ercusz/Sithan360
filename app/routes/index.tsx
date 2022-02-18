@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useLoaderData, useParams } from "remix";
 import type { MetaFunction, LoaderFunction, ActionFunction } from "remix";
-import { useColorMode, Box, Heading, AspectRatio, Container, Flex } from "@chakra-ui/react";
+import { useColorMode, Box, Heading, AspectRatio, Container, Flex, Button, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, useDisclosure } from "@chakra-ui/react";
 import { Viewer, Animation } from 'photo-sphere-viewer'
 import { MarkersPlugin } from "photo-sphere-viewer/dist/plugins/markers"
 import { CompassPlugin } from "photo-sphere-viewer/dist/plugins/compass"
@@ -58,6 +58,8 @@ export let loader: LoaderFunction = async () => {
 
 export default function Index() {
   
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const [ markerData, setMarkerData ] = useState(null);
   const { colorMode } = useColorMode();
   const sphereElementRef: React.RefObject<any> = React.createRef()!;
   let nodes = useLoaderData();
@@ -148,9 +150,16 @@ export default function Index() {
       ],
     });
 
+    var marker = spherePlayerInstance.getPlugin(MarkersPlugin)!;
+    marker.on('select-marker', (e, m) => {
+      if (m.data !== undefined && m.data.length > 0) {
+        setMarkerData(m.data)
+        onOpen()
+      }
+    });
+
     var virtualTour = spherePlayerInstance.getPlugin(VirtualTourPlugin)!;
     virtualTour.setNodes(nodes[colorMode])
-    console.log(nodes[colorMode])
 
     spherePlayerInstance.once('ready', intro)
 
@@ -183,7 +192,17 @@ export default function Index() {
 
   return (
     <>
-    <Box ref={sphereElementRef} w='100%' h='100%'/>
+      <Box ref={sphereElementRef} w='100%' h='100%'/>
+      <Modal onClose={onClose} isOpen={isOpen} isCentered>
+        <ModalOverlay />
+        <ModalContent>
+          <ModalHeader>รายละเอียด</ModalHeader>
+          <ModalCloseButton />
+          <ModalBody p={5}>
+            {markerData}
+          </ModalBody>
+        </ModalContent>
+      </Modal>
     </>
   );
 }

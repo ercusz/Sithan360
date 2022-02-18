@@ -136,7 +136,9 @@
               "longitude": "0deg",
               "latitude": "0deg",
               "width": 800,
-              "height": 400
+              "height": 400,
+              "modal": true,
+              "data": "This is Welcome Message"
             }
           ]
         },
