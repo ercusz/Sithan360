@@ -20,13 +20,13 @@
             }
           ],
           "panoData": {
-            "poseHeading": 0
+            "poseHeading": 180
           },
           "markers": [
             {
               "id": "Arnattiphon(Developer)",
               "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
-              "longitude": "230.5deg",
+              "longitude": "50.5deg",
               "latitude": "2.5deg",
               "width": 50,
               "height": 50,
@@ -35,10 +35,11 @@
             {
               "id": "Welcome Message",
               "image": "images/welcomemsg.gif",
-              "longitude": "0deg",
+              "longitude": "185.5deg",
               "latitude": "0deg",
               "width": 800,
-              "height": 400
+              "height": 400,
+              "data": "This is Welcome Message"
             }
           ]
         },
@@ -51,10 +52,32 @@
             { "nodeId": "main", 
               "x": 6894, 
               "y": 463
+            },
+            { "nodeId": "1_2", 
+              "x": 3541, 
+              "y": 441
             }
           ],
           "panoData": {
-            "poseHeading": 100
+            "poseHeading": 280
+          },
+          "markers": [
+            
+          ]
+        },
+        { 
+          "id": "1_2", 
+          "panorama": "images/night/1_2.jpg", 
+          "thumbnail": "images/night/1_2.jpg", 
+          "name": "ไก่ย่าง", 
+          "links": [
+            { "nodeId": "1_1", 
+              "x": 7, 
+              "y": 373
+            }
+          ],
+          "panoData": {
+            "poseHeading": 280
           },
           "markers": [
             
@@ -69,10 +92,32 @@
             { "nodeId": "main", 
               "x": 5207, 
               "y": 338
+            },
+            { "nodeId": "2_2", 
+              "x": 1652, 
+              "y": 303
             }
           ],
           "panoData": {
-            "poseHeading": 280
+            "poseHeading": 100
+          },
+          "markers": [
+            
+          ]
+        },
+        { 
+          "id": "2_2", 
+          "panorama": "images/night/2_2.jpg", 
+          "thumbnail": "images/night/2_2.jpg", 
+          "name": "ถนนสีฐาน (ต่อ)", 
+          "links": [
+            { "nodeId": "2_1", 
+              "x": 1849, 
+              "y": 378
+            }
+          ],
+          "panoData": {
+            "poseHeading": 270
           },
           "markers": [
             
@@ -87,114 +132,202 @@
             { "nodeId": "main", 
               "x": 7152, 
               "y": 283
+            },
+            { "nodeId": "3_2", 
+              "x": 3534, 
+              "y": 445
             }
           ],
           "panoData": {
-            "poseHeading": 280
+            "poseHeading": 100
+          },
+          "markers": [
+            
+          ]
+        },
+        { 
+          "id": "3_2", 
+          "panorama": "images/night/3_2.jpg", 
+          "thumbnail": "images/night/3_2.jpg", 
+          "name": "ลานกิจกรรม บึงสีฐาน (ต่อ)", 
+          "links": [
+            { "nodeId": "3_1", 
+              "x": 0, 
+              "y": 566
+            }
+          ],
+          "panoData": {
+            "poseHeading": 100
           },
           "markers": [
             
           ]
         }
       ],
-      "light": [
-        { 
-          "id": "main", 
-          "panorama": "images/day/main.jpg", 
-          "thumbnail": "images/day/main.jpg", 
-          "name": "หน้าหลัก - ถนนสีฐาน", 
-          "links": [
-            { "nodeId": "1_1", 
-              "x": 3638, 
-              "y": 476
-            },
-            { "nodeId": "2_1", 
-              "x": 5120, 
-              "y": 370
-            },
-            { "nodeId": "3_1", 
-              "x": 6945, 
-              "y": 430
-            }
-          ],
-          "panoData": {
-            "poseHeading": 100
+    "light": [
+      { 
+        "id": "main", 
+        "panorama": "images/day/main.jpg", 
+        "thumbnail": "images/day/main.jpg", 
+        "name": "หน้าหลัก - ถนนสีฐาน", 
+        "links": [
+          { "nodeId": "1_1", 
+            "x": 3638, 
+            "y": 476
           },
-          "markers": [
-            {
-              "id": "Arnattiphon(Developer)",
-              "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
-              "longitude": "280.5deg",
-              "latitude": "2.5deg",
-              "width": 50,
-              "height": 50,
-              "tooltip": "<b>Arnattiphon(Developer)</b>"
-            },
-            {
-              "id": "Welcome Message",
-              "image": "images/welcomemsg.gif",
-              "longitude": "0deg",
-              "latitude": "0deg",
-              "width": 800,
-              "height": 400,
-              "modal": true,
-              "data": "This is Welcome Message"
-            }
-          ]
+          { "nodeId": "2_1", 
+            "x": 5120, 
+            "y": 370
+          },
+          { "nodeId": "3_1", 
+            "x": 6945, 
+            "y": 430
+          }
+        ],
+        "panoData": {
+          "poseHeading": 280
         },
-        { 
-          "id": "1_1", 
-          "panorama": "images/day/1_1.jpg", 
-          "thumbnail": "images/day/1_1.jpg", 
-          "name": "ถนน..", 
-          "links": [
-            { "nodeId": "main", 
-              "x": 6894, 
-              "y": 463
-            }
-          ],
-          "panoData": {
-            "poseHeading": 100
+        "markers": [
+          {
+            "id": "Arnattiphon(Developer)",
+            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+            "longitude": "100.5deg",
+            "latitude": "2.5deg",
+            "width": 50,
+            "height": 50,
+            "tooltip": "<b>Arnattiphon(Developer)</b>"
           },
-          "markers": [
-            
-          ]
+          {
+            "id": "Welcome Message",
+            "image": "images/welcomemsg.gif",
+            "longitude": "180.5deg",
+            "latitude": "0deg",
+            "width": 800,
+            "height": 400,
+            "modal": true,
+            "data": "This is Welcome Message"
+          }
+        ]
+      },
+      { 
+        "id": "1_1", 
+        "panorama": "images/day/1_1.jpg", 
+        "thumbnail": "images/day/1_1.jpg", 
+        "name": "ถนน..", 
+        "links": [
+          { "nodeId": "main", 
+            "x": 6894, 
+            "y": 463
+          },
+          { "nodeId": "1_2", 
+            "x": 3588, 
+            "y": 351
+          }
+        ],
+        "panoData": {
+          "poseHeading": 280
         },
-        { 
-          "id": "2_1", 
-          "panorama": "images/day/2_1.jpg", 
-          "thumbnail": "images/day/2_1.jpg", 
-          "name": "ถนนสีฐาน", 
-          "links": [
-            { "nodeId": "main", 
-              "x": 7130, 
-              "y": 400
-            }
-          ],
-          "panoData": {
-            "poseHeading": 180
-          },
-          "markers": [
-            
-          ]
+        "markers": [
+          
+        ]
+      },
+      { 
+        "id": "1_2", 
+        "panorama": "images/day/1_2.jpg", 
+        "thumbnail": "images/day/1_2.jpg", 
+        "name": "ไก่ย่าง", 
+        "links": [
+          { "nodeId": "1_1", 
+            "x": 79, 
+            "y": 419
+          }
+        ],
+        "panoData": {
+          "poseHeading": 280
         },
-        { 
-          "id": "3_1", 
-          "panorama": "images/day/3_1.jpg", 
-          "thumbnail": "images/day/3_1.jpg", 
-          "name": "ลานกิจกรรม บึงสีฐาน", 
-          "links": [
-            { "nodeId": "main", 
-              "x": 3553, 
-              "y": 384
-            }
-          ],
-          "panoData": {
-            "poseHeading": 100
+        "markers": [
+          
+        ]
+      },
+      { 
+        "id": "2_1", 
+        "panorama": "images/day/2_1.jpg", 
+        "thumbnail": "images/day/2_1.jpg", 
+        "name": "ถนนสีฐาน", 
+        "links": [
+          { "nodeId": "main", 
+            "x": 7130, 
+            "y": 400
           },
-          "markers": [
-            
-          ]
-        }
-      ]
+          { "nodeId": "2_2", 
+            "x": 3557, 
+            "y": 333
+          }
+        ],
+        "panoData": {
+          "poseHeading": 360
+        },
+        "markers": [
+          
+        ]
+      },
+      { 
+        "id": "2_2", 
+        "panorama": "images/day/2_2.jpg", 
+        "thumbnail": "images/day/2_2.jpg", 
+        "name": "ถนนสีฐาน (ต่อ)", 
+        "links": [
+          { "nodeId": "2_1", 
+            "x": 5315, 
+            "y": 540
+          }
+        ],
+        "panoData": {
+          "poseHeading": 90
+        },
+        "markers": [
+          
+        ]
+      },
+      { 
+        "id": "3_1", 
+        "panorama": "images/day/3_1.jpg", 
+        "thumbnail": "images/day/3_1.jpg", 
+        "name": "ลานกิจกรรม บึงสีฐาน", 
+        "links": [
+          { "nodeId": "main", 
+            "x": 3553, 
+            "y": 384
+          },
+          { "nodeId": "3_2", 
+            "x": 7160, 
+            "y": 354
+          }
+        ],
+        "panoData": {
+          "poseHeading": 280
+        },
+        "markers": [
+          
+        ]
+      },
+      { 
+        "id": "3_2", 
+        "panorama": "images/day/3_2.jpg", 
+        "thumbnail": "images/day/3_2.jpg", 
+        "name": "ลานกิจกรรม บึงสีฐาน (ต่อ)", 
+        "links": [
+          { "nodeId": "3_1", 
+            "x": 0, 
+            "y": 566
+          }
+        ],
+        "panoData": {
+          "poseHeading": 100
+        },
+        "markers": [
+          
+        ]
+      }
+    ]
 }

@@ -167,11 +167,10 @@ export default function Index() {
       // default far plane is too close to render fisheye=4
       // you can also skip this line and start with fisheye=2
       // spherePlayerInstance.renderer.camera.far *= 2;
-
       new Animation({
           properties: {
-              lat: { start: 0, end: 0 },
-              long: { start: 0, end: 0 },
+              lat: { start: Math.PI/2, end: Math.PI/2 },
+              long: { start: Math.PI, end: Math.PI },
               zoom: { start: 100, end: 0 },
               fisheye: { start: 4, end: 0 },
           },
