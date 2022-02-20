@@ -169,7 +169,57 @@
             "poseHeading": 270
           },
           "markers": [
-            
+            {
+              "id": "marker-n5rrwd1cbm",
+              "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
+              "longitude": 3.589,
+              "latitude": 0.004,
+              "width": 32,
+              "height": 32,
+              "tooltip": "<b>ป้ายรถเมย์</b>",
+              "data": "มีไว้สำหรับนั่งรอรถหรือนั่งพัก"
+            },
+            {
+              "id": "marker-688k52qy08",
+              "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
+              "longitude": 1.664,
+              "latitude": 0.058,
+              "width": 32,
+              "height": 32,
+              "tooltip": "<b>ศูนย์ประชุมอเนกประสงค์กาญจนาภิเษก มหาวิทยาลัยขอนแก่น</b>",
+              "data": "เป็นศูนย์การประชุมที่ตั้งอยู่ในบริเวณมหาวิทยาลัยขอนแก่นติดกับบึงสีฐาน และเป็นศูนย์การประชุมที่ใหญ่เป็นอันดับ 2 ของประเทศรองจากศูนย์การประชุมแห่งชาติสิริกิติ์"
+            },
+            {
+              "id": "marker-04gtssm9dhuz",
+              "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
+              "longitude": 2.943,
+              "latitude": 0.031,
+              "width": 32,
+              "height": 32,
+              "tooltip": "<b>ตู้ATM ธนาคารไทยพาณิชย์</b>",
+              "data": "ตู้กดเงินของธนาคารไทยพาณิชย์"
+            },
+            {
+              "id": "marker-sew17igcux",
+              "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
+              "longitude": 5.419,
+              "latitude": -0.01,
+              "width": 32,
+              "height": 32,
+              "tooltip": "<b>ลานจอดรถ</b>",
+              "data": "สร้างไว้เพื่อรองรับรถจำนวนมากในวันที่มีกิจกรรมหรือนิทรรศการต่างๆ"
+            },
+            {
+              "id": "marker-t8zzoyde7z",
+              "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
+              "longitude": 3.803,
+              "latitude": 0.024,
+              "width": 32,
+              "height": 32,
+              "tooltip": "<b>อัฒจันทร์หอศิลปวัฒนธรรม มหาวิทยาลัยขอนแก่น</b>",
+              "data": "พื้นที่สำหรับจัดกิจกรรมหลากหลายรูปแบบ เป็นศูนย์ในการทำกิจกรรมต่างๆ"
+              
+            }
           ]
         },
         { 
@@ -433,7 +483,56 @@
           "poseHeading": 90
         },
         "markers": [
-          
+          {
+            "id": "marker-n5rrwd1cbm",
+            "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
+            "longitude": 3.449,
+            "latitude": 0.034,
+            "width": 32,
+            "height": 32,
+            "tooltip": "<b>ป้ายรถเมย์</b>",
+            "data": "มีไว้สำหรับนั่งรอรถหรือนั่งพัก"
+          },
+          {
+            "id": "marker-688k52qy08",
+            "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
+            "longitude": 1.564,
+            "latitude": 0.008,
+            "width": 32,
+            "height": 32,
+            "tooltip": "<b>ศูนย์ประชุมอเนกประสงค์กาญจนาภิเษก มหาวิทยาลัยขอนแก่น</b>",
+            "data": "เป็นศูนย์การประชุมที่ตั้งอยู่ในบริเวณมหาวิทยาลัยขอนแก่นติดกับบึงสีฐาน และเป็นศูนย์การประชุมที่ใหญ่เป็นอันดับ 2 ของประเทศรองจากศูนย์การประชุมแห่งชาติสิริกิติ์"
+          },
+          {
+            "id": "marker-04gtssm9dhuz",
+            "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
+            "longitude": 2.793,
+            "latitude": 0.031,
+            "width": 32,
+            "height": 32,
+            "tooltip": "<b>ตู้ATM ธนาคารไทยพาณิชย์</b>",
+            "data": "ตู้กดเงินของธนาคารไทยพาณิชย์"
+          },
+          {
+            "id": "marker-sew17igcux",
+            "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
+            "longitude": 5.219,
+            "latitude": 0.041,
+            "width": 32,
+            "height": 32,
+            "tooltip": "<b>ลานจอดรถ</b>",
+            "data": "สร้างไว้เพื่อรองรับรถจำนวนมากในวันที่มีกิจกรรมหรือนิทรรศการต่างๆ"
+          },
+          {
+            "id": "marker-t8zzoyde7z",
+            "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
+            "longitude": 3.553,
+            "latitude": 0.044,
+            "width": 32,
+            "height": 32,
+            "tooltip": "<b>อัฒจันทร์หอศิลปวัฒนธรรม มหาวิทยาลัยขอนแก่น</b>",
+            "data": "พื้นที่สำหรับจัดกิจกรรมหลากหลายรูปแบบ เป็นศูนย์ในการทำกิจกรรมต่างๆ"
+          }
         ]
       },
       { 
