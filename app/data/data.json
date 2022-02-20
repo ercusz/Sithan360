@@ -160,7 +160,56 @@
             "poseHeading": 100
           },
           "markers": [
-            
+            {
+              "id": "ศูนย์ประชุมอเนกประสงค์กาญจนาภิเษก มหาวิทยาลัยขอนแก่น",
+              "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+              "longitude": "38.34deg",
+              "latitude": "7.5deg",
+              "width": 50,
+              "height": 50,
+              "tooltip": "<b>ศูนย์ประชุมอเนกประสงค์กาญจนาภิเษก มหาวิทยาลัยขอนแก่น</b>",
+              "data": "ศูนย์ประชุมอเนกประสงค์ ไว้สำหรับการจัดงานต่างๆ ที่ต้องการใช้พื้นที่ในการจัดงานที่มีคนเข้าร่วมจำนวนมาก"
+            },
+            {
+              "id": "เก้าอี้",
+              "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+              "longitude": "32.34deg",
+              "latitude": "-0.5deg",
+              "width": 50,
+              "height": 50,
+              "tooltip": "<b>เก้าอี้</b>",
+              "data": "เก้าอี้ยาวสีเขียว ไว้นั่งพัก สำหรับคนที่มาวิ่งและมาพักผ่อน"
+            },
+            {
+              "id": "กล้องวงจรปิด",
+              "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+              "longitude": "211deg",
+              "latitude": "23.5deg",
+              "width": 50,
+              "height": 50,
+              "tooltip": "<b>กล้องวงจรปิด</b>",
+              "data": "กล้องวงจรปิดติดไว้ทั่วบริเวณ เพื่อความปลอดภัยแก่ผู้ที่มาบึงสีฐาน"
+            },
+            {
+              "id": "เลนจักรยาน",
+              "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+              "longitude": "190.34deg",
+              "latitude": "-0.5deg",
+              "width": 50,
+              "height": 50,
+              "tooltip": "<b>เลนจักรยาน</b>",
+              "data": "เลนจักรยาน ไว้สำหรับคนที่มาปั่นจักรยาน แยกจากเลนวิ่งเพื่อความสะดวกและความปลอดภัยแก่คนที่มาบึงสีฐาน"
+            },
+            {
+              "id": "ต้นเฟื่องฟ้า",
+              "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+              "longitude": "149.34deg",
+              "latitude": "3.5deg",
+              "width": 50,
+              "height": 50,
+              "tooltip": "<b>ต้นเฟื่องฟ้า</b>",
+              "data": "ต้นไม้ชนิดหนึ่ง ปลูกไว้ตกแต่งเพื่อความสวยงาม"
+            }
           ]
         }
       ],
@@ -375,7 +424,56 @@
           "poseHeading": 100
         },
         "markers": [
-          
+          {
+            "id": "ศูนย์ประชุมอเนกประสงค์กาญจนาภิเษก มหาวิทยาลัยขอนแก่น",
+            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+            "longitude": "43.34deg",
+            "latitude": "8.5deg",
+            "width": 50,
+            "height": 50,
+            "tooltip": "<b>ศูนย์ประชุมอเนกประสงค์กาญจนาภิเษก มหาวิทยาลัยขอนแก่น</b>",
+            "data": "ศูนย์ประชุมอเนกประสงค์ ไว้สำหรับการจัดงานต่างๆ ที่ต้องการใช้พื้นที่ในการจัดงานที่มีคนเข้าร่วมจำนวนมาก"
+          },
+          {
+            "id": "เก้าอี้",
+            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+            "longitude": "41.34deg",
+            "latitude": "0.1deg",
+            "width": 50,
+            "height": 50,
+            "tooltip": "<b>เก้าอี้</b>",
+            "data": "เก้าอี้ยาวสีเขียว ไว้นั่งพัก สำหรับคนที่มาวิ่งและมาพักผ่อน"
+          },
+          {
+            "id": "กล้องวงจรปิด",
+            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+            "longitude": "214deg",
+            "latitude": "25.2deg",
+            "width": 50,
+            "height": 50,
+            "tooltip": "<b>กล้องวงจรปิด</b>",
+            "data": "กล้องวงจรปิดติดไว้ทั่วบริเวณ เพื่อความปลอดภัยแก่ผู้ที่มาบึงสีฐาน"
+          },
+          {
+            "id": "ดวงอาทิตย์",
+            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+            "longitude": "111.34deg",
+            "latitude": "11.5deg",
+            "width": 50,
+            "height": 50,
+            "tooltip": "<b>ดวงอาทิตย์</b>",
+            "data": "ดวงอาทิตย์ เป็นจุดที่ดวงอาทิตย์ขึ้น เมื่อมาในยามเช้าจะได้รับชมความสวยงามของพระอาทิตย์ขึ้น"
+          },
+          {
+            "id": "ต้นเฟื่องฟ้า",
+            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+            "longitude": "151.95deg",
+            "latitude": "4.5deg",
+            "width": 50,
+            "height": 50,
+            "tooltip": "<b>ต้นเฟื่องฟ้า</b>",
+            "data": "ต้นไม้ชนิดหนึ่ง ปลูกไว้ตกแต่งเพื่อความสวยงาม"
+          }
         ]
       }
     ]
