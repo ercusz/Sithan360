@@ -213,7 +213,7 @@
         "id": "1_1", 
         "panorama": "images/day/1_1.jpg", 
         "thumbnail": "images/day/1_1.jpg", 
-        "name": "ถนน..", 
+        "name": "ถนนไปพิพิธภัณฑ์ธรรมชาติวิทยา มข", 
         "links": [
           { "nodeId": "main", 
             "x": 6894, 
@@ -235,7 +235,7 @@
         "id": "1_2", 
         "panorama": "images/day/1_2.jpg", 
         "thumbnail": "images/day/1_2.jpg", 
-        "name": "ไก่ย่าง", 
+        "name": "ถนนไปพิพิธภัณฑ์ธรรมชาติวิทยา มข", 
         "links": [
           { "nodeId": "1_1", 
             "x": 79, 
@@ -246,7 +246,56 @@
           "poseHeading": 280
         },
         "markers": [
-          
+          {
+            "id": "ArtClub",
+            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+            "longitude": 5.631,
+            "latitude": 0.01,
+            "width": 50,
+            "height": 50,
+            "tooltip": "<b>คุ้มศิลปวัฒนธรรม</b>",
+            "data": "พุทธศิลป์สถาน ศูนย์ศิลปวัฒนธรรม มหาวิทยาลัยขอนแก่น"
+          },
+          {
+            "id": "MusicEdge",
+            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+            "longitude": 3.423,
+            "latitude": 0.067,
+            "width": 50,
+            "height": 50,
+            "tooltip": "<b>ดนตรีริมน้ำ</b>",
+            "data": "ลานดนตรี ที่สามารถเข้ามาฟังดนตรีสดๆ ได้"
+          },
+          {
+            "id": "RedBicycle",
+            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+            "longitude": 6.076,
+            "latitude": 0.008,
+            "width": 50,
+            "height": 50,
+            "tooltip": "<b>จักรยานสีแดง</b>",
+            "data": "เป็นจักรยานของคุณป้าแม่บ้านที่เข้าทำความสะอาดคุ้มศิลปวัฒนธรรม"          
+          },
+          {
+            "id": "Dormbudhaart",
+            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+            "longitude": 5.503,
+            "latitude": 0.183,
+            "width": 50,
+            "height": 50,
+            "tooltip": "<b>อาคารพุทธศิลป์</b>",
+            "data": "เป็นอาคารที่มีใช้จัดกิจกรรมเกี่ยววัฒนธรรม ประเพณีต่างๆ"
+          },
+          {
+            "id": "Art_gallery",
+            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+            "longitude": 0.893,
+            "latitude": 0.271,
+            "width": 50,
+            "height": 50,
+            "tooltip": "<b>หอศิลปวัฒนธรรม มหาวิทยาลัยขอนแก่น</b>",
+            "data": "จัดตั้งขึ้นเพื่อเป็นหน่วยกลางในการประสานงานการจัดนิทรรศการ การเผยแพร่และจัดแสดงด้านศิลปวัฒนธรรมของหน่วยงานต่างๆ ทั้งภายในและภายนอกมหาวิทยาลัย ประเพณีต่างๆ"
+          }
         ]
       },
       { 
