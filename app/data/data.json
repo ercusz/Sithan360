@@ -12,11 +12,19 @@
             },
             { "nodeId": "2_1", 
               "x": 0, 
-              "y": 249
+              "y": 370
             },
             { "nodeId": "3_1", 
               "x": 2613, 
               "y": 442
+            },
+            { "nodeId": "4", 
+              "x": 3592, 
+              "y": 245,
+              "markerStyle": 
+              {
+                "image": "images/redgem.webp"
+              }
             }
           ],
           "panoData": {
@@ -24,22 +32,12 @@
           },
           "markers": [
             {
-              "id": "Arnattiphon(Developer)",
-              "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
-              "longitude": "50.5deg",
-              "latitude": "2.5deg",
-              "width": 50,
-              "height": 50,
-              "tooltip": "<b>Arnattiphon(Developer)</b>"
-            },
-            {
               "id": "Welcome Message",
-              "image": "images/welcomemsg.gif",
-              "longitude": "185.5deg",
+              "image": "images/welcomemsg.webp",
+              "longitude": "183.5deg",
               "latitude": "0deg",
               "width": 800,
-              "height": 400,
-              "data": "This is Welcome Message"
+              "height": 400
             }
           ]
         },
@@ -69,7 +67,7 @@
           "id": "1_2", 
           "panorama": "images/night/1_2.jpg", 
           "thumbnail": "images/night/1_2.jpg", 
-          "name": "ถนนไปพิพิธภัณฑ์ธรรมชาติวิทยา มข", 
+          "name": "ถนนไปพิพิธภัณฑ์ธรรมชาติวิทยา มข (ต่อ)", 
           "links": [
             { "nodeId": "1_1", 
               "x": 7, 
@@ -81,54 +79,89 @@
           },
           "markers": [
             {
-              "id": "CCTV",
-              "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
-              "longitude": 3.114,
-              "latitude": 0.303,
-              "width": 50,
-              "height": 50,
-              "tooltip": "<b>กล้องวงจรปิด</b>",
-              "data": "กล้องวงจรปิดที่อยู่บริเวณหน้าพุทธศิลป์สถาน ศูนย์ศิลปวัฒนธรรม มหาวิทยาลัยขอนแก่น"
+              "id": "กล้องวงจรปิด",
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
+              "longitude": 3.134,
+              "latitude": 0.353,
+              "width": 80,
+              "height": 80,
+              "data": {
+                "detail": "กล้องวงจรปิดที่อยู่บริเวณหน้าพุทธศิลป์สถาน ศูนย์ศิลปวัฒนธรรม มหาวิทยาลัยขอนแก่น",
+                "mapUrl": "",
+                "imageUrl": ""
+              }
             },
             {
-              "id": "dormbuddhaDark",
-              "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
-              "longitude": 5.578,
-              "latitude": 0.151,
-              "width": 50,
-              "height": 50,
-              "tooltip": "<b>อาคารพุทธศิลป์ในเวลากลางคืน</b>",
-              "data": "เป็นอาคารที่มีใช้จัดกิจกรรมเกี่ยววัฒนธรรม ประเพณีต่างๆ"
+              "id": "ถนนหน้าคุ้มศิลปวัฒนธรรม",
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
+              "longitude": 4.878,
+              "latitude": 0.051,
+              "width": 80,
+              "height": 80,
+              "data": {
+                "detail": "เป็นเส้นทางสำหรับไปพิพิธภัณฑ์ธรรมชาติวิทยา เพียงแค่คุณขี่ตรงไปจนเจอทางแยกเลี้ยวขวา ให้คุณเลี้ยวแล้วจะเจอพิพิธภัณฑ์",
+                "mapUrl": "https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1608.8870556023708!2d102.81191374529551!3d16.445135876697627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d16.444873299999998!2d102.8136674!4m5!1s0x31228a74a8068c37%3A0xa43806f97207c144!2z4Lie4Li04Lie4Li04LiY4Lig4Lix4LiT4LiR4LmM4LiY4Lij4Lij4Lih4LiK4Liy4LiV4Li04Lin4Li04LiX4Lii4LiyIOC4oeC4gg!3m2!1d16.4457831!2d102.8110536!5e0!3m2!1sth!2sth!4v1645392564591!5m2!1sth!2sth",
+                "imageUrl": ""
+              }
             },
             {
-              "id": "ToiletBehideArtGallery",
-              "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+              "id": "ห้องน้ำหลังหอศิลปวัฒนธรรม",
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
+              "width": 80,
+              "height": 80,
               "longitude": 0.796,
               "latitude": 0.156,
-              "width": 50,
-              "height": 50,
-              "tooltip": "<b>ห้องน้ำหลังหอศิลปวัฒนธรรม มหาวิทยาลัยขอนแก่น</b>",
-              "data": "เป็นห้องน้ำที่มีการสร้างไว้หอศิลปวัฒนธรรม มหาวิทยาลัยขอนแก่น"
+              "data": {
+                "detail": "เป็นห้องน้ำที่มีอยู่บริเวณหลังหอศิลปวัฒนธรรม มหาวิทยาลัยขอนแก่น เป็นสถานที่ยอดฮิตเมื่อเวลามีงานแข่งขันวิ่งมินิมาราธอนต่าง ๆ ",
+                "mapUrl": "",
+                "imageUrl": ""
+              }
             },
             {
-              "id": "SithanLakeWest",
-              "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+              "id": "บึงสีฐานฝั่งตะวันตก",
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
               "longitude": 3.646,
               "latitude": 0.063,
-              "width": 50,
-              "height": 50,
-              "tooltip": "<b>บึงศรีฐานฝั่งตะวันตก</b>",
-              "data": "บึงศรีฐานถูกถนนตัดผ่านแบ่งเป็นสองฝั่ง จากภาพเป็นบึงฝั่งตะวันตก"
+              "width": 80,
+              "height": 80,
+              "data": {
+                "detail": "บึงสีฐานถูกถนนตัดผ่านแบ่งเป็นสองฝั่ง ฝั่งนี้จะเป็นบึงฝั่งตะวันตก",
+                "mapUrl": "",
+                "imageUrl": ""
+              }
             },
             {
-              "id": "ArtClubDark",
-              "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
-              "longitude": 5.6,
-              "latitude": 0.012,
-              "width": 50,
-              "height": 50,
-              "tooltip": "<b>คุ้มศิลปวัฒนธรรม</b>",
-              "data": "พุทธศิลป์สถาน ศูนย์ศิลปวัฒนธรรม มหาวิทยาลัยขอนแก่น"
+              "id": "คุ้มศิลปวัฒนธรรม",
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
+              "longitude": 5.580,
+              "latitude": 0.065,
+              "width": 80,
+              "height": 80,
+              "data": {
+                "detail": "พุทธศิลป์สถาน ศูนย์ศิลปวัฒนธรรม มหาวิทยาลัยขอนแก่น ด้านในจะมีอาคารพุทธศิลป์ที่เป็นเป็นอาคารสำหรับใช้จัดกิจกรรมเกี่ยววัฒนธรรม ประเพณีต่าง ๆ",
+                "mapUrl": "",
+                "imageUrl": ""
+              }
             }
           ]
         },
@@ -170,55 +203,89 @@
           },
           "markers": [
             {
-              "id": "marker-n5rrwd1cbm",
-              "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
+              "id": "ป้ายรถเมล์",
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
+              "width": 80,
+              "height": 80,
               "longitude": 3.589,
               "latitude": 0.004,
-              "width": 32,
-              "height": 32,
-              "tooltip": "<b>ป้ายรถเมย์</b>",
-              "data": "มีไว้สำหรับนั่งรอรถหรือนั่งพัก"
+              "data": {
+                "detail": "สำหรับป้ายนี้จะเป็นทางผ่านของรถ KST-EV Bus สายสีส้ม โดยสามารถดูจากเส้นทางการเดินรถได้จากในรูปข้างต้น รูปเต็ม(https://kku.world/jwk5f) ข้อมูลอัปเดตล่าสุดวันที่ 27 มกราคม 2565",
+                "mapUrl": "",
+                "imageUrl": "https://scontent.fkkc3-1.fna.fbcdn.net/v/t39.30808-6/272838522_5031424663584325_8052943014449722855_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeEeefunY09VQT3oI6SbnjCsRUDzxe1ieeNFQPPF7WJ546CC-8Y2A_lvReWwmFFHDPPIBchbN9vcil0iHYi_Qy_5&_nc_ohc=TQihNzOvkOkAX-ous54&_nc_ht=scontent.fkkc3-1.fna&oh=00_AT_Va-zscy8UzwNflAGTNK_0xGSIflHcjZmHytkDDCvBJA&oe=6218A0DA"
+              }
             },
             {
-              "id": "marker-688k52qy08",
-              "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
+              "id": "ศูนย์ประชุมอเนกประสงค์กาญจนาภิเษก มหาวิทยาลัยขอนแก่น",
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
+              "width": 80,
+              "height": 80,
               "longitude": 1.664,
               "latitude": 0.058,
-              "width": 32,
-              "height": 32,
-              "tooltip": "<b>ศูนย์ประชุมอเนกประสงค์กาญจนาภิเษก มหาวิทยาลัยขอนแก่น</b>",
-              "data": "เป็นศูนย์การประชุมที่ตั้งอยู่ในบริเวณมหาวิทยาลัยขอนแก่นติดกับบึงสีฐาน และเป็นศูนย์การประชุมที่ใหญ่เป็นอันดับ 2 ของประเทศรองจากศูนย์การประชุมแห่งชาติสิริกิติ์"
+              "data": {
+                "detail": "เป็นศูนย์การประชุมที่ตั้งอยู่ในบริเวณมหาวิทยาลัยขอนแก่นติดกับบึงสีฐาน และเป็นศูนย์การประชุมที่ใหญ่เป็นอันดับ 2 ของประเทศรองจากศูนย์การประชุมแห่งชาติสิริกิติ์",
+                "mapUrl": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15306.295289622865!2d102.817053!3d16.446457!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd60b5a369eaf8efa!2z4Lio4Li54LiZ4Lii4LmM4Lib4Lij4Liw4LiK4Li44Lih4Lit4LmA4LiZ4LiB4Lib4Lij4Liw4Liq4LiH4LiE4LmM4LiB4Liy4LiN4LiI4LiZ4Liy4Lig4Li04LmA4Lip4LiBIOC4oeC4q-C4suC4p-C4tOC4l-C4ouC4suC4peC4seC4ouC4guC4reC4meC5geC4geC5iOC4mQ!5e0!3m2!1sth!2sth!4v1645393984597!5m2!1sth!2sth",
+                "imageUrl": ""
+              }
             },
             {
-              "id": "marker-04gtssm9dhuz",
-              "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
-              "longitude": 2.943,
-              "latitude": 0.031,
-              "width": 32,
-              "height": 32,
-              "tooltip": "<b>ตู้ATM ธนาคารไทยพาณิชย์</b>",
-              "data": "ตู้กดเงินของธนาคารไทยพาณิชย์"
+              "id": "ตู้ ATM ธนาคารไทยพาณิชย์",
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
+              "width": 80,
+              "height": 80,
+              "longitude": 2.893,
+              "latitude": 0.131,
+              "data": {
+                "detail": "ไม่ได้เป็นเพียงแค่ตู้ ATM ธรรมดา แต่เป็นถึงจุดสังเกตที่สำคัญที่ใช้ในการนัดพบกับเพื่อนฝูงในโอกาสต่าง ๆ ไม่ว่าจะเป็นงานรับปริญญา หรือปฐมนิเนศ",
+                "mapUrl": "",
+                "imageUrl": ""
+              }
             },
             {
-              "id": "marker-sew17igcux",
-              "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
+              "id": "ลานจอดรถ",
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
+              "width": 80,
+              "height": 80,
               "longitude": 5.419,
               "latitude": -0.01,
-              "width": 32,
-              "height": 32,
-              "tooltip": "<b>ลานจอดรถ</b>",
-              "data": "สร้างไว้เพื่อรองรับรถจำนวนมากในวันที่มีกิจกรรมหรือนิทรรศการต่างๆ"
+              "data": {
+                "detail": "สร้างไว้เพื่อรองรับรถจำนวนมากในวันที่มีกิจกรรมหรือนิทรรศการต่างๆ",
+                "mapUrl": "",
+                "imageUrl": ""
+              }
             },
             {
-              "id": "marker-t8zzoyde7z",
-              "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
+              "id": "อัฒจันทร์หอศิลปวัฒนธรรม มหาวิทยาลัยขอนแก่น",
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
+              "width": 80,
+              "height": 80,
               "longitude": 3.803,
               "latitude": 0.024,
-              "width": 32,
-              "height": 32,
-              "tooltip": "<b>อัฒจันทร์หอศิลปวัฒนธรรม มหาวิทยาลัยขอนแก่น</b>",
-              "data": "พื้นที่สำหรับจัดกิจกรรมหลากหลายรูปแบบ เป็นศูนย์ในการทำกิจกรรมต่างๆ"
-              
+              "data": {
+                "detail": "เป็นพื้นที่สำหรับจัดกิจกรรมหลากหลายรูปแบบ เป็นศูนย์กลางในการทำกิจกรรมต่าง ๆ",
+                "mapUrl": "",
+                "imageUrl": ""
+              }
             }
           ]
         },
@@ -261,53 +328,190 @@
           "markers": [
             {
               "id": "ศูนย์ประชุมอเนกประสงค์กาญจนาภิเษก มหาวิทยาลัยขอนแก่น",
-              "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
-              "longitude": "38.34deg",
-              "latitude": "7.5deg",
-              "width": 50,
-              "height": 50,
-              "tooltip": "<b>ศูนย์ประชุมอเนกประสงค์กาญจนาภิเษก มหาวิทยาลัยขอนแก่น</b>",
-              "data": "ศูนย์ประชุมอเนกประสงค์ ไว้สำหรับการจัดงานต่างๆ ที่ต้องการใช้พื้นที่ในการจัดงานที่มีคนเข้าร่วมจำนวนมาก"
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
+              "width": 80,
+              "height": 80,
+              "longitude": "37.34deg",
+              "latitude": "15.5deg",
+              "data": {
+                "detail": "เป็นศูนย์การประชุมที่ตั้งอยู่ในบริเวณมหาวิทยาลัยขอนแก่นติดกับบึงสีฐาน และเป็นศูนย์การประชุมที่ใหญ่เป็นอันดับ 2 ของประเทศรองจากศูนย์การประชุมแห่งชาติสิริกิติ์",
+                "mapUrl": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15306.295289622865!2d102.817053!3d16.446457!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd60b5a369eaf8efa!2z4Lio4Li54LiZ4Lii4LmM4Lib4Lij4Liw4LiK4Li44Lih4Lit4LmA4LiZ4LiB4Lib4Lij4Liw4Liq4LiH4LiE4LmM4LiB4Liy4LiN4LiI4LiZ4Liy4Lig4Li04LmA4Lip4LiBIOC4oeC4q-C4suC4p-C4tOC4l-C4ouC4suC4peC4seC4ouC4guC4reC4meC5geC4geC5iOC4mQ!5e0!3m2!1sth!2sth!4v1645393984597!5m2!1sth!2sth",
+                "imageUrl": ""
+              }
             },
             {
               "id": "เก้าอี้",
-              "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
+              "width": 80,
+              "height": 80,
               "longitude": "32.34deg",
-              "latitude": "-0.5deg",
-              "width": 50,
-              "height": 50,
-              "tooltip": "<b>เก้าอี้</b>",
-              "data": "เก้าอี้ยาวสีเขียว ไว้นั่งพัก สำหรับคนที่มาวิ่งและมาพักผ่อน"
+              "latitude": "3deg",
+              "data": {
+                "detail": "เก้าอี้ยาวสีเขียว ไว้นั่งพัก สำหรับคนที่มาวิ่งหรือมาพักผ่อน นอกจากจะใช้นั่งพักแล้วใช้นั่งถ่ายรูปเก๋ ๆ ก็ได้เหมือนกันนะ",
+                "mapUrl": "",
+                "imageUrl": ""
+              }
             },
             {
               "id": "กล้องวงจรปิด",
-              "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
+              "width": 80,
+              "height": 80,
               "longitude": "211deg",
               "latitude": "23.5deg",
-              "width": 50,
-              "height": 50,
-              "tooltip": "<b>กล้องวงจรปิด</b>",
-              "data": "กล้องวงจรปิดติดไว้ทั่วบริเวณ เพื่อความปลอดภัยแก่ผู้ที่มาบึงสีฐาน"
+              "data": {
+                "detail": "กล้องวงจรปิดติดไว้ทั่วบริเวณ เพื่อความปลอดภัยแก่ผู้ที่มาเยี่ยมชมบึงสีฐาน",
+                "mapUrl": "",
+                "imageUrl": ""
+              }
             },
             {
               "id": "เลนจักรยาน",
-              "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
+              "width": 80,
+              "height": 80,
               "longitude": "190.34deg",
               "latitude": "-0.5deg",
-              "width": 50,
-              "height": 50,
-              "tooltip": "<b>เลนจักรยาน</b>",
-              "data": "เลนจักรยาน ไว้สำหรับคนที่มาปั่นจักรยาน แยกจากเลนวิ่งเพื่อความสะดวกและความปลอดภัยแก่คนที่มาบึงสีฐาน"
+              "data": {
+                "detail": "เลนจักรยานสำหรับคนที่มาปั่นจักรยาน แยกจากเลนวิ่งเพื่อความสะดวกและความปลอดภัยแก่คนที่มาบึงสีฐาน",
+                "mapUrl": "",
+                "imageUrl": ""
+              }
             },
             {
               "id": "ต้นเฟื่องฟ้า",
-              "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
+              "width": 80,
+              "height": 80,
               "longitude": "149.34deg",
-              "latitude": "3.5deg",
-              "width": 50,
-              "height": 50,
-              "tooltip": "<b>ต้นเฟื่องฟ้า</b>",
-              "data": "ต้นไม้ชนิดหนึ่ง ปลูกไว้ตกแต่งเพื่อความสวยงาม"
+              "latitude": "4.5deg",
+              "data": {
+                "detail": "ต้นไม้ชนิดหนึ่ง ปลูกไว้ตกแต่งเพื่อความสวยงาม",
+                "mapUrl": "",
+                "imageUrl": ""
+              }
+            }
+          ]
+        },
+        { 
+          "id": "4", 
+          "panorama": "images/night/4.jpg", 
+          "thumbnail": "images/night/4.jpg", 
+          "name": "ประตูทางเข้ามหาวิทยาลัยขอนแก่น(ด้านประตูสีฐาน)", 
+          "links": [
+            { "nodeId": "main", 
+              "x": 0, 
+              "y": 396
+            }
+          ],
+          "panoData": {
+            "poseHeading": 190
+          },
+          "markers": [
+            {
+              "id": "ลานปล่อย​นกบินอิสระบึงสีฐาน",
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
+              "width": 80,
+              "height": 80,
+              "longitude": "285.34deg",
+              "latitude": "5deg",
+              "data": {
+                "detail": "เป็นลานสำหรับปล่อยนกให้บินอย่างอิสระ แสงในตอนเย็นสวย เหมาะแก่การถ่ายรูป",
+                "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d804.4487409750611!2d102.81429793994792!3d16.44387790762646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31228b665d42f76d%3A0x4e8ec0d88686281b!2z4Lil4Liy4LiZ4Lib4Lil4LmI4Lit4Lii4oCL4LiZ4LiB4Lia4Li04LiZ4Lit4Li04Liq4Lij4Liw4Lia4Li24LiH4Liq4Li14LiQ4Liy4LiZLeC4meC4geC4muC4tOC4meC4reC4tOC4quC4o-C4sOC4meC4hOC4o-C4guC4reC4meC5geC4geC5iOC4mQ!5e0!3m2!1sth!2sth!4v1645398970582!5m2!1sth!2sth",
+                "imageUrl": ""
+              }
+            },
+            {
+              "id": "โรงพยาบาลกรุงเทพขอนแก่น",
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
+              "width": 80,
+              "height": 80,
+              "longitude": 1.955,
+              "latitude": 0.195,
+              "data": {
+                "detail": "โรงพยาบาลกรุงเทพขอนแก่น เป็นอีกหนึ่งโรงพยาบาลที่อยู่ใกล้มหาวิทยาลัยขอนแก่น ถ้านับระยะทางจากจุดตรงนี้ไปไม่ถึง 1 กิโลเมตรด้วยซ้ำ",
+                "mapUrl": "https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3826.658001553621!2d102.81571591476778!3d16.44218668865142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d16.4435807!2d102.81484069999999!4m5!1s0x31228a125a59d299%3A0x1074120abf2723b9!2z4LmC4Lij4LiH4Lie4Lii4Liy4Lia4Liy4Lil4LiB4Lij4Li44LiH4LmA4LiX4Lie4LiC4Lit4LiZ4LmB4LiB4LmI4LiZIDg4OCDguKvguKHguLnguYggMTYg4LiW4LiZ4LiZ4Lih4Lil4Li04Lin4Lij4Lij4LiTIOC4leC4s-C4muC4peC5g-C4meC5gOC4oeC4t-C4reC4hyDguK3guLPguYDguKDguK3guYDguKHguLfguK3guIfguILguK3guJnguYHguIHguYjguJkg4LiC4Lit4LiZ4LmB4LiB4LmI4LiZIDQwMDAw!3m2!1d16.442311699999998!2d102.8200274!5e0!3m2!1sth!2sth!4v1645399459179!5m2!1sth!2sth" ,
+                "imageUrl": ""
+              }
+            },
+            {
+              "id": "ประตูทางเข้ามหาวิทยาลัยขอนแก่น",
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
+              "width": 80,
+              "height": 80,
+              "longitude": 3.470,
+              "latitude": 0.087,
+              "data": {
+                "detail": "ประตูทางเข้ามหาวิทยาลัยขอนแก่นฝั่งสีฐาน หลาย ๆ คนอาจจะเรียกสั้น ๆ ว่า ประตูสีฐาน ก็ได้",
+                "mapUrl": "" ,
+                "imageUrl": "https://scontent.fkkc3-1.fna.fbcdn.net/v/t1.6435-9/93479179_662848864287610_6638271143113392128_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeEMqwYDWl4H9tg_bvMRrc7L3mrQS6DRvj7eatBLoNG-PuNdsN6f7LnqxCBPX_OqEbKl6WjN4pVvkwKGZ_6H3Dho&_nc_ohc=ir8LdyhyzCUAX-YYlI9&_nc_ht=scontent.fkkc3-1.fna&oh=00_AT9j8ik0KXP8VFiGcdS8QIJ90MnI_8g3nV8FMLT_c--n5Q&oe=62386D80"
+              }
+            },
+            {
+              "id": "ลานออกกำลังกาย",
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
+              "width": 80,
+              "height": 80,
+              "longitude": 2.9,
+              "latitude": 0.123,
+              "data": {
+                "detail": "ในส่วนนี้จะมีเครื่องออกกำลังกายแบบ outdoor ให้เล่นมากมาย",
+                "mapUrl": "" ,
+                "imageUrl": ""
+              }
+            },
+            {
+              "id": "ศาลาน้อย",
+              "image": "images/square.webp",
+              "style": {
+                "cursor" : "pointer"
+              },
+              "tooltip": "คลิกเพื่อดูรายละเอียด",
+              "width": 80,
+              "height": 80,
+              "longitude": 3.130,
+              "latitude": 0.123,
+              "data": {
+                "detail": "ศาลาน้อยสุดคลาสสิก คนส่วนใหญ่มักจะมารอรถที่นี่ หรือจะมานั่งพักผ่อนหย่อนใจที่นี่ก็ได้",
+                "mapUrl": "" ,
+                "imageUrl": ""
+              }
             }
           ]
         }
@@ -330,6 +534,14 @@
           { "nodeId": "3_1", 
             "x": 6945, 
             "y": 430
+          },
+          { "nodeId": "4", 
+            "x": 1537, 
+            "y": 206,
+            "markerStyle": 
+            {
+              "image": "images/redgem.webp"
+            }
           }
         ],
         "panoData": {
@@ -337,23 +549,13 @@
         },
         "markers": [
           {
-            "id": "Arnattiphon(Developer)",
-            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
-            "longitude": "100.5deg",
-            "latitude": "2.5deg",
-            "width": 50,
-            "height": 50,
-            "tooltip": "<b>Arnattiphon(Developer)</b>"
-          },
-          {
             "id": "Welcome Message",
-            "image": "images/welcomemsg.gif",
+            "image": "images/welcomemsg.webp",
             "longitude": "180.5deg",
             "latitude": "0deg",
             "width": 800,
             "height": 400,
-            "modal": true,
-            "data": "This is Welcome Message"
+            "modal": true
           }
         ]
       },
@@ -383,7 +585,7 @@
         "id": "1_2", 
         "panorama": "images/day/1_2.jpg", 
         "thumbnail": "images/day/1_2.jpg", 
-        "name": "ถนนไปพิพิธภัณฑ์ธรรมชาติวิทยา มข", 
+        "name": "ถนนไปพิพิธภัณฑ์ธรรมชาติวิทยา มข (ต่อ)", 
         "links": [
           { "nodeId": "1_1", 
             "x": 79, 
@@ -395,54 +597,89 @@
         },
         "markers": [
           {
-            "id": "ArtClub",
-            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
-            "longitude": 5.631,
-            "latitude": 0.01,
-            "width": 50,
-            "height": 50,
-            "tooltip": "<b>คุ้มศิลปวัฒนธรรม</b>",
-            "data": "พุทธศิลป์สถาน ศูนย์ศิลปวัฒนธรรม มหาวิทยาลัยขอนแก่น"
+            "id": "คุ้มศิลปวัฒนธรรม",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "longitude": 5.620,
+            "latitude": 0.065,
+            "width": 80,
+            "height": 80,
+            "data": {
+              "detail": "พุทธศิลป์สถาน ศูนย์ศิลปวัฒนธรรม มหาวิทยาลัยขอนแก่น ด้านในจะมีอาคารพุทธศิลป์ที่เป็นเป็นอาคารสำหรับใช้จัดกิจกรรมเกี่ยววัฒนธรรม ประเพณีต่าง ๆ",
+              "mapUrl": "",
+              "imageUrl": ""
+            }
           },
           {
-            "id": "MusicEdge",
-            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+            "id": "ลานดนตรีริมน้ำ",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "width": 80,
+            "height": 80,
             "longitude": 3.423,
-            "latitude": 0.067,
-            "width": 50,
-            "height": 50,
-            "tooltip": "<b>ดนตรีริมน้ำ</b>",
-            "data": "ลานดนตรี ที่สามารถเข้ามาฟังดนตรีสดๆ ได้"
+            "latitude": 0.097,
+            "data": {
+              "detail": "ในช่วงก่อนโควิดจะมีดนตรีสดให้เราฟังแทบจะทุกสัปดาห์เลย อีกทั้งยังมีหน่วยกิจกรรมให้ด้วยนะ ดนตรีเพราะ ๆ ก็ได้ฟัง หน่วยกิจกรรมก็ได้ ดีจริง ๆ",
+              "mapUrl": "",
+              "imageUrl": ""
+            }
           },
           {
-            "id": "RedBicycle",
-            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+            "id": "จักรยานสีแดง",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "width": 80,
+            "height": 80,
             "longitude": 6.076,
-            "latitude": 0.008,
-            "width": 50,
-            "height": 50,
-            "tooltip": "<b>จักรยานสีแดง</b>",
-            "data": "เป็นจักรยานของคุณป้าแม่บ้านที่เข้าทำความสะอาดคุ้มศิลปวัฒนธรรม"          
+            "latitude": 0.060,
+            "data": {
+              "detail": "เป็นจักรยานคู่ใจของคุณป้าแม่บ้านที่เข้าทำความสะอาดคุ้มศิลปวัฒนธรรม",
+              "mapUrl": "",
+              "imageUrl": ""
+            }  
           },
           {
-            "id": "Dormbudhaart",
-            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
-            "longitude": 5.503,
-            "latitude": 0.183,
-            "width": 50,
-            "height": 50,
-            "tooltip": "<b>อาคารพุทธศิลป์</b>",
-            "data": "เป็นอาคารที่มีใช้จัดกิจกรรมเกี่ยววัฒนธรรม ประเพณีต่างๆ"
+            "id": "ถนนหน้าคุ้มศิลปวัฒนธรรม",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "longitude": 4.878,
+            "latitude": 0.051,
+            "width": 80,
+            "height": 80,
+            "data": {
+              "detail": "เป็นเส้นทางสำหรับไปพิพิธภัณฑ์ธรรมชาติวิทยา เพียงแค่คุณขี่ตรงไปจนเจอทางแยกเลี้ยวขวา ให้คุณเลี้ยวแล้วจะเจอพิพิธภัณฑ์",
+              "mapUrl": "https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1608.8870556023708!2d102.81191374529551!3d16.445135876697627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d16.444873299999998!2d102.8136674!4m5!1s0x31228a74a8068c37%3A0xa43806f97207c144!2z4Lie4Li04Lie4Li04LiY4Lig4Lix4LiT4LiR4LmM4LiY4Lij4Lij4Lih4LiK4Liy4LiV4Li04Lin4Li04LiX4Lii4LiyIOC4oeC4gg!3m2!1d16.4457831!2d102.8110536!5e0!3m2!1sth!2sth!4v1645392564591!5m2!1sth!2sth",
+              "imageUrl": ""
+            }
           },
           {
-            "id": "Art_gallery",
-            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+            "id": "หอศิลปวัฒนธรรม มหาวิทยาลัยขอนแก่น",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "width": 80,
+            "height": 80,
             "longitude": 0.893,
             "latitude": 0.271,
-            "width": 50,
-            "height": 50,
-            "tooltip": "<b>หอศิลปวัฒนธรรม มหาวิทยาลัยขอนแก่น</b>",
-            "data": "จัดตั้งขึ้นเพื่อเป็นหน่วยกลางในการประสานงานการจัดนิทรรศการ การเผยแพร่และจัดแสดงด้านศิลปวัฒนธรรมของหน่วยงานต่างๆ ทั้งภายในและภายนอกมหาวิทยาลัย ประเพณีต่างๆ"
+            "data": {
+              "detail": "จัดตั้งขึ้นเพื่อเป็นส่วนกลางในการประสานงานในการจัดแสดงนิทรรศการ รวมไปถึงการเผยแพร่และจัดแสดงด้านศิลปวัฒนธรรมของหน่วยงานต่าง ๆ ทั้งภายในและภายนอกมหาวิทยาลัย",
+              "mapUrl": "",
+              "imageUrl": ""
+            }
           }
         ]
       },
@@ -476,7 +713,7 @@
         "links": [
           { "nodeId": "2_1", 
             "x": 5315, 
-            "y": 540
+            "y": 340
           }
         ],
         "panoData": {
@@ -484,54 +721,89 @@
         },
         "markers": [
           {
-            "id": "marker-n5rrwd1cbm",
-            "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
+            "id": "ป้ายรถเมล์",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "width": 80,
+            "height": 80,
             "longitude": 3.449,
             "latitude": 0.034,
-            "width": 32,
-            "height": 32,
-            "tooltip": "<b>ป้ายรถเมย์</b>",
-            "data": "มีไว้สำหรับนั่งรอรถหรือนั่งพัก"
+            "data": {
+              "detail": "สำหรับป้ายนี้จะเป็นทางผ่านของรถ KST-EV Bus สายสีส้ม โดยสามารถดูจากเส้นทางการเดินรถได้จากในรูปข้างต้น รูปเต็ม(https://kku.world/jwk5f) ข้อมูลอัปเดตล่าสุดวันที่ 27 มกราคม 2565",
+              "mapUrl": "",
+              "imageUrl": "https://scontent.fkkc3-1.fna.fbcdn.net/v/t39.30808-6/272838522_5031424663584325_8052943014449722855_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeEeefunY09VQT3oI6SbnjCsRUDzxe1ieeNFQPPF7WJ546CC-8Y2A_lvReWwmFFHDPPIBchbN9vcil0iHYi_Qy_5&_nc_ohc=TQihNzOvkOkAX-ous54&_nc_ht=scontent.fkkc3-1.fna&oh=00_AT_Va-zscy8UzwNflAGTNK_0xGSIflHcjZmHytkDDCvBJA&oe=6218A0DA"
+            }
           },
           {
-            "id": "marker-688k52qy08",
-            "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
+            "id": "ศูนย์ประชุมอเนกประสงค์กาญจนาภิเษก มหาวิทยาลัยขอนแก่น",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "width": 80,
+            "height": 80,
             "longitude": 1.564,
-            "latitude": 0.008,
-            "width": 32,
-            "height": 32,
-            "tooltip": "<b>ศูนย์ประชุมอเนกประสงค์กาญจนาภิเษก มหาวิทยาลัยขอนแก่น</b>",
-            "data": "เป็นศูนย์การประชุมที่ตั้งอยู่ในบริเวณมหาวิทยาลัยขอนแก่นติดกับบึงสีฐาน และเป็นศูนย์การประชุมที่ใหญ่เป็นอันดับ 2 ของประเทศรองจากศูนย์การประชุมแห่งชาติสิริกิติ์"
+            "latitude": 0.108,
+            "data": {
+              "detail": "เป็นศูนย์การประชุมที่ตั้งอยู่ในบริเวณมหาวิทยาลัยขอนแก่นติดกับบึงสีฐาน และเป็นศูนย์การประชุมที่ใหญ่เป็นอันดับ 2 ของประเทศรองจากศูนย์การประชุมแห่งชาติสิริกิติ์",
+              "mapUrl": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15306.295289622865!2d102.817053!3d16.446457!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd60b5a369eaf8efa!2z4Lio4Li54LiZ4Lii4LmM4Lib4Lij4Liw4LiK4Li44Lih4Lit4LmA4LiZ4LiB4Lib4Lij4Liw4Liq4LiH4LiE4LmM4LiB4Liy4LiN4LiI4LiZ4Liy4Lig4Li04LmA4Lip4LiBIOC4oeC4q-C4suC4p-C4tOC4l-C4ouC4suC4peC4seC4ouC4guC4reC4meC5geC4geC5iOC4mQ!5e0!3m2!1sth!2sth!4v1645393984597!5m2!1sth!2sth",
+              "imageUrl": ""
+            }
           },
           {
-            "id": "marker-04gtssm9dhuz",
-            "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
+            "id": "ตู้ ATM ธนาคารไทยพาณิชย์",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "width": 80,
+            "height": 80,
             "longitude": 2.793,
-            "latitude": 0.031,
-            "width": 32,
-            "height": 32,
-            "tooltip": "<b>ตู้ATM ธนาคารไทยพาณิชย์</b>",
-            "data": "ตู้กดเงินของธนาคารไทยพาณิชย์"
+            "latitude": 0.131,
+            "data": {
+              "detail": "ไม่ได้เป็นเพียงแค่ตู้ ATM ธรรมดา แต่เป็นถึงจุดสังเกตที่สำคัญที่ใช้ในการนัดพบกับเพื่อนฝูงในโอกาสต่าง ๆ ไม่ว่าจะเป็นงานรับปริญญา หรือปฐมนิเนศ",
+              "mapUrl": "",
+              "imageUrl": ""
+            }
           },
           {
-            "id": "marker-sew17igcux",
-            "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
+            "id": "ลานจอดรถ",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "width": 80,
+            "height": 80,
             "longitude": 5.219,
             "latitude": 0.041,
-            "width": 32,
-            "height": 32,
-            "tooltip": "<b>ลานจอดรถ</b>",
-            "data": "สร้างไว้เพื่อรองรับรถจำนวนมากในวันที่มีกิจกรรมหรือนิทรรศการต่างๆ"
+            "data": {
+              "detail": "สร้างไว้เพื่อรองรับรถจำนวนมากในวันที่มีกิจกรรมหรือนิทรรศการต่างๆ",
+              "mapUrl": "",
+              "imageUrl": ""
+            }
           },
           {
-            "id": "marker-t8zzoyde7z",
-            "image": "https://photo-sphere-viewer.js.org/assets/pin-red.png",
-            "longitude": 3.553,
+            "id": "อัฒจันทร์หอศิลปวัฒนธรรม มหาวิทยาลัยขอนแก่น",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "width": 80,
+            "height": 80,
+            "longitude": 3.653,
             "latitude": 0.044,
-            "width": 32,
-            "height": 32,
-            "tooltip": "<b>อัฒจันทร์หอศิลปวัฒนธรรม มหาวิทยาลัยขอนแก่น</b>",
-            "data": "พื้นที่สำหรับจัดกิจกรรมหลากหลายรูปแบบ เป็นศูนย์ในการทำกิจกรรมต่างๆ"
+            "data": {
+              "detail": "เป็นพื้นที่สำหรับจัดกิจกรรมหลากหลายรูปแบบ เป็นศูนย์กลางในการทำกิจกรรมต่าง ๆ",
+              "mapUrl": "",
+              "imageUrl": ""
+            }
           }
         ]
       },
@@ -574,53 +846,190 @@
         "markers": [
           {
             "id": "ศูนย์ประชุมอเนกประสงค์กาญจนาภิเษก มหาวิทยาลัยขอนแก่น",
-            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "width": 80,
+            "height": 80,
             "longitude": "43.34deg",
-            "latitude": "8.5deg",
-            "width": 50,
-            "height": 50,
-            "tooltip": "<b>ศูนย์ประชุมอเนกประสงค์กาญจนาภิเษก มหาวิทยาลัยขอนแก่น</b>",
-            "data": "ศูนย์ประชุมอเนกประสงค์ ไว้สำหรับการจัดงานต่างๆ ที่ต้องการใช้พื้นที่ในการจัดงานที่มีคนเข้าร่วมจำนวนมาก"
+            "latitude": "15.5deg",
+            "data": {
+              "detail": "เป็นศูนย์การประชุมที่ตั้งอยู่ในบริเวณมหาวิทยาลัยขอนแก่นติดกับบึงสีฐาน และเป็นศูนย์การประชุมที่ใหญ่เป็นอันดับ 2 ของประเทศรองจากศูนย์การประชุมแห่งชาติสิริกิติ์",
+              "mapUrl": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15306.295289622865!2d102.817053!3d16.446457!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd60b5a369eaf8efa!2z4Lio4Li54LiZ4Lii4LmM4Lib4Lij4Liw4LiK4Li44Lih4Lit4LmA4LiZ4LiB4Lib4Lij4Liw4Liq4LiH4LiE4LmM4LiB4Liy4LiN4LiI4LiZ4Liy4Lig4Li04LmA4Lip4LiBIOC4oeC4q-C4suC4p-C4tOC4l-C4ouC4suC4peC4seC4ouC4guC4reC4meC5geC4geC5iOC4mQ!5e0!3m2!1sth!2sth!4v1645393984597!5m2!1sth!2sth",
+              "imageUrl": ""
+            }
           },
           {
             "id": "เก้าอี้",
-            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "width": 80,
+            "height": 80,
             "longitude": "41.34deg",
             "latitude": "0.1deg",
-            "width": 50,
-            "height": 50,
-            "tooltip": "<b>เก้าอี้</b>",
-            "data": "เก้าอี้ยาวสีเขียว ไว้นั่งพัก สำหรับคนที่มาวิ่งและมาพักผ่อน"
+            "data": {
+              "detail": "เก้าอี้ยาวสีเขียว ไว้นั่งพัก สำหรับคนที่มาวิ่งหรือมาพักผ่อน นอกจากจะใช้นั่งพักแล้วใช้นั่งถ่ายรูปเก๋ ๆ ก็ได้เหมือนกันนะ",
+              "mapUrl": "",
+              "imageUrl": ""
+            }
           },
           {
             "id": "กล้องวงจรปิด",
-            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "width": 80,
+            "height": 80,
             "longitude": "214deg",
-            "latitude": "25.2deg",
-            "width": 50,
-            "height": 50,
-            "tooltip": "<b>กล้องวงจรปิด</b>",
-            "data": "กล้องวงจรปิดติดไว้ทั่วบริเวณ เพื่อความปลอดภัยแก่ผู้ที่มาบึงสีฐาน"
+            "latitude": "20.2deg",
+            "data": {
+              "detail": "กล้องวงจรปิดติดไว้ทั่วบริเวณ เพื่อความปลอดภัยแก่ผู้ที่มาเยี่ยมชมบึงสีฐาน",
+              "mapUrl": "",
+              "imageUrl": ""
+            }
           },
           {
             "id": "ดวงอาทิตย์",
-            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "width": 80,
+            "height": 80,
             "longitude": "111.34deg",
-            "latitude": "11.5deg",
-            "width": 50,
-            "height": 50,
-            "tooltip": "<b>ดวงอาทิตย์</b>",
-            "data": "ดวงอาทิตย์ เป็นจุดที่ดวงอาทิตย์ขึ้น เมื่อมาในยามเช้าจะได้รับชมความสวยงามของพระอาทิตย์ขึ้น"
+            "latitude": "13.5deg",
+            "data": {
+              "detail": "เป็นจุดที่ดวงอาทิตย์ขึ้น เมื่อมาในยามเช้าจะได้รับชมความสวยงามของพระอาทิตย์ขึ้น",
+              "mapUrl": "",
+              "imageUrl": ""
+            }
           },
           {
             "id": "ต้นเฟื่องฟ้า",
-            "image": "https://64.media.tumblr.com/48d1cded32823c6aded8861e6d7e3aad/tumblr_pxuqjiK9Hn1sftgzko2_400.gifv",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "width": 80,
+            "height": 80,
             "longitude": "151.95deg",
             "latitude": "4.5deg",
-            "width": 50,
-            "height": 50,
-            "tooltip": "<b>ต้นเฟื่องฟ้า</b>",
-            "data": "ต้นไม้ชนิดหนึ่ง ปลูกไว้ตกแต่งเพื่อความสวยงาม"
+            "data": {
+              "detail": "ต้นไม้ชนิดหนึ่ง ปลูกไว้ตกแต่งเพื่อความสวยงาม",
+              "mapUrl": "",
+              "imageUrl": ""
+            }
+          }
+        ]
+      },
+      { 
+        "id": "4", 
+        "panorama": "images/day/4.jpg", 
+        "thumbnail": "images/day/4.jpg", 
+        "name": "ประตูทางเข้ามหาวิทยาลัยขอนแก่น(ด้านประตูสีฐาน)", 
+        "links": [
+          { "nodeId": "main", 
+            "x": 6748, 
+            "y": 393
+          }
+        ],
+        "panoData": {
+          "poseHeading": 190
+        },
+        "markers": [
+          {
+            "id": "ลานปล่อย​นกบินอิสระบึงสีฐาน",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "width": 80,
+            "height": 80,
+            "longitude": "250.34deg",
+            "latitude": "5deg",
+            "data": {
+              "detail": "เป็นลานสำหรับปล่อยนกให้บินอย่างอิสระ แสงในตอนเย็นสวย เหมาะแก่การถ่ายรูป",
+              "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d804.4487409750611!2d102.81429793994792!3d16.44387790762646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31228b665d42f76d%3A0x4e8ec0d88686281b!2z4Lil4Liy4LiZ4Lib4Lil4LmI4Lit4Lii4oCL4LiZ4LiB4Lia4Li04LiZ4Lit4Li04Liq4Lij4Liw4Lia4Li24LiH4Liq4Li14LiQ4Liy4LiZLeC4meC4geC4muC4tOC4meC4reC4tOC4quC4o-C4sOC4meC4hOC4o-C4guC4reC4meC5geC4geC5iOC4mQ!5e0!3m2!1sth!2sth!4v1645398970582!5m2!1sth!2sth",
+              "imageUrl": ""
+            }
+          },
+          {
+            "id": "โรงพยาบาลกรุงเทพขอนแก่น",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "width": 80,
+            "height": 80,
+            "longitude": 1.505,
+            "latitude": 0.195,
+            "data": {
+              "detail": "โรงพยาบาลกรุงเทพขอนแก่น เป็นอีกหนึ่งโรงพยาบาลที่อยู่ใกล้มหาวิทยาลัยขอนแก่น ถ้านับระยะทางจากจุดตรงนี้ไปไม่ถึง 1 กิโลเมตรด้วยซ้ำ",
+              "mapUrl": "https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3826.658001553621!2d102.81571591476778!3d16.44218668865142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d16.4435807!2d102.81484069999999!4m5!1s0x31228a125a59d299%3A0x1074120abf2723b9!2z4LmC4Lij4LiH4Lie4Lii4Liy4Lia4Liy4Lil4LiB4Lij4Li44LiH4LmA4LiX4Lie4LiC4Lit4LiZ4LmB4LiB4LmI4LiZIDg4OCDguKvguKHguLnguYggMTYg4LiW4LiZ4LiZ4Lih4Lil4Li04Lin4Lij4Lij4LiTIOC4leC4s-C4muC4peC5g-C4meC5gOC4oeC4t-C4reC4hyDguK3guLPguYDguKDguK3guYDguKHguLfguK3guIfguILguK3guJnguYHguIHguYjguJkg4LiC4Lit4LiZ4LmB4LiB4LmI4LiZIDQwMDAw!3m2!1d16.442311699999998!2d102.8200274!5e0!3m2!1sth!2sth!4v1645399459179!5m2!1sth!2sth" ,
+              "imageUrl": ""
+            }
+          },
+          {
+            "id": "ประตูทางเข้ามหาวิทยาลัยขอนแก่น",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "width": 80,
+            "height": 80,
+            "longitude": 3.025,
+            "latitude": 0.107,
+            "data": {
+              "detail": "ประตูทางเข้ามหาวิทยาลัยขอนแก่นฝั่งสีฐาน หลาย ๆ คนอาจจะเรียกสั้น ๆ ว่า ประตูสีฐาน ก็ได้",
+              "mapUrl": "" ,
+              "imageUrl": "https://scontent.fkkc3-1.fna.fbcdn.net/v/t1.6435-9/93479179_662848864287610_6638271143113392128_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeEMqwYDWl4H9tg_bvMRrc7L3mrQS6DRvj7eatBLoNG-PuNdsN6f7LnqxCBPX_OqEbKl6WjN4pVvkwKGZ_6H3Dho&_nc_ohc=ir8LdyhyzCUAX-YYlI9&_nc_ht=scontent.fkkc3-1.fna&oh=00_AT9j8ik0KXP8VFiGcdS8QIJ90MnI_8g3nV8FMLT_c--n5Q&oe=62386D80"
+            }
+          },
+          {
+            "id": "ลานออกกำลังกาย",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "width": 80,
+            "height": 80,
+            "longitude": 2.400,
+            "latitude": 0.123,
+            "data": {
+              "detail": "ในส่วนนี้จะมีเครื่องออกกำลังกายแบบ outdoor ให้เล่นมากมาย",
+              "mapUrl": "" ,
+              "imageUrl": ""
+            }
+          },
+          {
+            "id": "ศาลาน้อย",
+            "image": "images/square.webp",
+            "style": {
+              "cursor" : "pointer"
+            },
+            "tooltip": "คลิกเพื่อดูรายละเอียด",
+            "width": 80,
+            "height": 80,
+            "longitude": 2.700,
+            "latitude": 0.123,
+            "data": {
+              "detail": "ศาลาน้อยสุดคลาสสิก คนส่วนใหญ่มักจะมารอรถที่นี่ หรือจะมานั่งพักผ่อนหย่อนใจที่นี่ก็ได้",
+              "mapUrl": "" ,
+              "imageUrl": ""
+            }
           }
         ]
       }

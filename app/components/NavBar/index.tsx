@@ -1,9 +1,7 @@
-import { NavLink } from "remix";
-import { IconButton, Button, Heading, Text, Flex, Box, HStack, Link as ChakraLink, Spacer, useColorMode } from "@chakra-ui/react";
+import { IconButton, Heading, Flex, HStack, Link as ChakraLink, Spacer } from "@chakra-ui/react";
 import { getColor } from '@chakra-ui/theme-tools'
 import { FaMoon, FaSun } from 'react-icons/fa'
 import { Switch } from "../switch"
-import { useTheme } from "@emotion/react";
 import { FcOldTimeCamera } from 'react-icons/fc'
 import { VscGithub } from 'react-icons/vsc'
 import { useTypewriter, Cursor} from 'react-simple-typewriter'

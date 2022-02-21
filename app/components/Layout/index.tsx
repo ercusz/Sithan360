@@ -1,4 +1,3 @@
-
 import { Box, useColorMode } from "@chakra-ui/react";
 import { useTheme } from "@emotion/react";
 import NavBar from "../NavBar";

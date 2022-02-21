@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useLoaderData, useParams } from "remix";
-import type { MetaFunction, LoaderFunction, ActionFunction } from "remix";
-import { useColorMode, Box, Heading, AspectRatio, Container, Flex, Button, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, useDisclosure } from "@chakra-ui/react";
+import { useLoaderData } from "remix";
+import type { LoaderFunction } from "remix";
+import { Image, useColorMode, Box, Heading, AspectRatio, Modal, ModalBody, ModalCloseButton, ModalContent, ModalHeader, ModalOverlay, useDisclosure } from "@chakra-ui/react";
 import { Viewer, Animation } from 'photo-sphere-viewer'
 import { MarkersPlugin } from "photo-sphere-viewer/dist/plugins/markers"
 import { CompassPlugin } from "photo-sphere-viewer/dist/plugins/compass"
@@ -29,13 +29,6 @@ export function links() {
   ];
 }
 
-export const meta: MetaFunction = () => {
-  return {
-    title: 'Photo Viewer : Sithan360',
-    description: 'Photos taken at Sithan',
-  };
-};
-
 export function CatchBoundary() {
   return (
     <Box bg='yellow.500'>
@@ -59,7 +52,7 @@ export let loader: LoaderFunction = async () => {
 export default function Index() {
   
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const [ markerData, setMarkerData ] = useState(null);
+  const [ markerData, setMarkerData ] = useState({name: '', detail: '', mapUrl: '', imageUrl: ''});
   const { colorMode } = useColorMode();
   const sphereElementRef: React.RefObject<any> = React.createRef()!;
   let nodes = useLoaderData();
@@ -67,7 +60,7 @@ export default function Index() {
   useEffect(() => {
     const spherePlayerInstance = new Viewer({
       container: sphereElementRef.current,
-      loadingImg: 'https://i.pinimg.com/originals/25/5a/05/255a05ae61282c78be11f7a863f8e542.gif',
+      loadingImg: 'images/loading.webp',
       fisheye: true,
       defaultZoomLvl: 0,
       minFov: 0,
@@ -75,33 +68,6 @@ export default function Index() {
       navbar: [
         'autorotate',
         'zoom',
-        {
-          id: 'my-button',
-          content: `
-          <button class="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-xs font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800">
-            <span class="relative px-3 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                Test button
-            </span>
-          </button>
-          `,
-          title: 'Hello world',
-          className: 'custom-button',
-          onClick: () => {
-            alert('Hello from custom button');
-          },
-        },
-        {
-          id: 'my-button',
-          content: `
-                Test button
-           
-          `,
-          title: 'Hello world',
-          className: 'custom-button',
-          onClick: () => {
-            alert('Hello from custom button');
-          },
-        },
         'caption',
         'fullscreen',
       ],
@@ -134,7 +100,7 @@ export default function Index() {
             markerStyle: 
             {
               html     : null, // an SVG provided by the plugin
-              image: 'https://i.pinimg.com/originals/f5/23/af/f523aff276f3624532b6f9bd805073a5.gif',
+              image: 'images/gem.webp',
               width    : 300,
               height   : 600,
               scale    : [0.5, 2],
@@ -152,8 +118,15 @@ export default function Index() {
 
     var marker = spherePlayerInstance.getPlugin(MarkersPlugin)!;
     marker.on('select-marker', (e, m) => {
-      if (m.data !== undefined && m.data.length > 0) {
-        setMarkerData(m.data)
+      
+      if (typeof m.data !== 'undefined' && m.data.hasOwnProperty('detail') ) {
+        let data = {
+          name: m.id,
+          detail: m.data['detail'],
+          mapUrl: m.data['mapUrl'],
+          imageUrl: m.data['imageUrl']
+        }
+        setMarkerData(data)
         onOpen()
       }
     });
@@ -195,10 +168,26 @@ export default function Index() {
       <Modal onClose={onClose} isOpen={isOpen} isCentered>
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>รายละเอียด</ModalHeader>
+          <ModalHeader>{markerData.name}</ModalHeader>
           <ModalCloseButton />
           <ModalBody p={5}>
-            {markerData}
+            {
+              markerData.imageUrl.length > 0 ? 
+              <AspectRatio maxW='400px' ratio={16 / 9} mb={2}>
+                <Image src={markerData.imageUrl} alt={markerData.name + '-img'} objectFit='cover' />
+              </AspectRatio>
+              : null
+            }
+            {markerData.detail}
+            {
+              markerData.mapUrl.length > 0 ?
+              <AspectRatio ratio={16 / 9} mt={2} mb={4}>
+                <iframe
+                  src={markerData.mapUrl} 
+                />
+              </AspectRatio>
+              : null
+            }
           </ModalBody>
         </ModalContent>
       </Modal>
